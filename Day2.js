@@ -41,5 +41,39 @@
 // let sym1 = Symbol("sym1");
 // console.log(sym1);
 
+// let id = Symbol("id");
+// let person = {name : "Romiya" ,
+//             //adding symbol as a key
+//             [id]:123
+// };
+// console.log(person);
 
 /*Object in js*/
+
+// let mobile = {
+//     color : "Yellow", 
+//     Price : "20000",
+//     Brand : "POCO"
+// };
+// console.log(typeof mobile);
+
+//mobile is the object
+//color , Price , Brand are the properties of the object
+
+let hawana = {
+        myFullName : "Hawana Tamang",
+        age : "19",
+        collegeName : "KIST College",
+        myDetails : function(){
+            console.log("It\'s fun to learn js");       //function is method (myDetails = method)
+                                                        //if any property holds function then it is 'method'
+                                                        //if the function is inside the object then it is method
+        }
+};
+// console.log(hawana);
+// console.log(hawana.myFullName);
+// console.log(hawana.age);
+// console.log(hawana.collegeName);
+
+/* For Method */
+// hawana.myDetails();         //calling the method
