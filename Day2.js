@@ -60,16 +60,16 @@
 //mobile is the object
 //color , Price , Brand are the properties of the object
 
-let hawana = {
-        myFullName : "Hawana Tamang",
-        age : "19",
-        collegeName : "KIST College",
-        myDetails : function(){
-            console.log("It\'s fun to learn js");       //function is method (myDetails = method)
-                                                        //if any property holds function then it is 'method'
-                                                        //if the function is inside the object then it is method
-        }
-};
+// let hawana = {
+//         myFullName : "Hawana Tamang",
+//         age : "19",
+//         collegeName : "KIST College",
+//         myDetails : function(){
+//             console.log("It\'s fun to learn js");       //function is method (myDetails = method)
+//                                                         //if any property holds function then it is 'method'
+//                                                         //if the function is inside the object then it is method
+//         }
+// };
 // console.log(hawana);
 // console.log(hawana.myFullName);
 // console.log(hawana.age);
