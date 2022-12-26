@@ -22,6 +22,7 @@
  //variables naming conventions
   var myFavColor1 = "Black";       //camelCase
   var my_fav_color = 'Black';      //Snake Case
+  var MyFavColor = "Yellow";        //Pascal Case
  console.log(my_fav_color);
 
 // var myFavColor = "red";
