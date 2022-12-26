@@ -77,3 +77,16 @@
 
 /* For Method */
 // hawana.myDetails();         //calling the method
+
+/*String Concatination in js*/
+// let firstName = 'Hawana';
+// let lastName = 'Tamang';
+// console.log(firstName + ' ' + lastName);       // '+' = combines the value
+
+// let firstNum = prompt("Enter first number");
+// firstNum = parseFloat(firstNum);
+
+// let secondNum = prompt("Enter second number");
+// secondNum = parseFloat(secondNum);
+
+// alert(firstNum + secondNum);        //displays in the tab
