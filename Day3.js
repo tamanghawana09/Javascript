@@ -90,7 +90,7 @@
 // }
 
 /* prompt() */
-let phone = prompt('Which phone do you prefer ?');
+/*let phone = prompt('Which phone do you prefer ?');
 if(phone === 'samsung')
 {
     alert('Samsung is android');
@@ -103,4 +103,4 @@ else
 {
     alert('NO phone');
     alert('!!! Get one !!!');
-}
+}*/
