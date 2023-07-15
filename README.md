@@ -1,2 +1,2 @@
 # Javascript
-Learning Javascript in the ITSNP session
+Laerning Javascript in free time
