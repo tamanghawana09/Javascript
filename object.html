@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1 id="demo">First Name</h1>
+    <h2 id="demo2">Last Name</h2>
+    <h3 id="demo3">Age</h3>
+</head>
+<body>
+  
+    <script>
+        function myFunction(){
+            const person={
+                firstName: "John",
+                lastName: "Doe",
+                age:21
+            };
+           
+            document.getElementById("demo").innerHTML = person.firstName;
+            document.getElementById("demo2").innerHTML = person.lastName;
+            document.getElementById("demo3").innerHTML = person.age;
+        }
+        function newFunction(){
+            const person={
+                firstName: "First Name",
+                lastName: "Last Name",
+                age: "Age"
+            };
+            document.getElementById("demo").innerHTML = person.firstName;
+            document.getElementById("demo2").innerHTML = person.lastName;
+            document.getElementById("demo3").innerHTML = person.age;
+        }
+    </script>
+    <button type="button" onclick="myFunction()">Click it</button>
+    <button type="button" onclick="newFunction()">New Click</button>
+</body>
+</html>
