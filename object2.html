@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My page</h1>
+    <div>
+        <button type="button" onclick=" displayInfo()">Click it for information !</button>
+        <button type="button" onclick="displayId()">For id</button>
+    </div>
+    <div id="personInfo"></div>
+    <div id="info"></div>
+
+    <script>
+        const person ={
+            firstName :"john",
+            lastName :"doe",
+            idNo: 911,
+            fullName: function(){
+                return this.firstName + " " + this.lastName;
+            },
+            
+            id: function() {
+                return this.idNo;
+            }
+        };
+        function displayInfo(){
+            const personInfoDiv = document.getElementById("personInfo");
+            personInfoDiv.textContent ="Full Name: " + person.fullName();
+           
+        }
+        function displayId(){
+            const personDiv = document.getElementById("info")
+            personDiv.textContent ="Id: " + person.id();
+        }
+    </script>
+</body>
+</html>
