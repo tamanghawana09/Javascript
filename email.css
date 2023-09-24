@@ -2,10 +2,7 @@ body{
     background-color: #000;
 }
 .input-group{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+ position: relative;   
 }
 .input-group_input{
     font:inherit;
