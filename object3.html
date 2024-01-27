@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DObject</title>
+</head>
+<body>
+    <div>
+        <button type="button" onclick="personInfo()">Click for info</button>
+    </div>
+    <div id="personInfo"></div>
+    <script>
+        const person={
+            firstName:"Hawana",
+            lastName:"Tamang",
+            age:20,
+            fullName:function(){
+                return this.firstName + "  " + this.lastName;
+            }
+        };
+        function personInfo(){
+            const info = document.getElementById("personInfo");
+            info.textContent = "Full Name: " + person.fullName();
+            
+        }
+    </script>
+</body>
+</html>
